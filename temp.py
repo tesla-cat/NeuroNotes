@@ -1,3 +1,4 @@
+
 with open('temp.txt','r', encoding='utf8') as f:
     x = f.read()
 
