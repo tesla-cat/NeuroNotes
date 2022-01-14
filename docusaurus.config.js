@@ -6,6 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+
+  
   title: 'NeuroNotes',
   tagline: 'Brains are cool',
   
@@ -14,10 +16,12 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   
-  url: 'https://endiliey.github.io', // Your website URL
-  baseUrl: '/',
-  projectName: 'endiliey.github.io',
-  organizationName: 'endiliey',
+  url: 'https://tesla-cat.github.io', // Your website URL
+  baseUrl: '/NeuroNotes/',
+  projectName: 'NeuroNotes',
+  organizationName: 'tesla-cat',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [

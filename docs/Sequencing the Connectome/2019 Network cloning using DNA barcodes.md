@@ -13,7 +13,7 @@ Instead, here we formulate a fully local procedure for recreating the target net
 - The moves minimize the cost function defined by Eq. 1. Minimization of the cost function forces all barcodes facing every neuron to be the same. This arrangement is called OBOC (one-barcode–one-cell).
 - To practically implement these three moves, we select two synapses of the same neuron at random, ensure that at least one of them contains a barcode pair, and swap the pairs, even if source and destination are the same or one of them is empty. In implementing these moves, we keep track of the direction of barcode pairs and synapses, that is, barcode pairs are introduced into synapses of the correct orientation. We ensure that the described moves are local in that **the barcode pairs are only relocated between synapses of the same neuron.**
 
-<div class="ctr"><img src="/img/p8.png" width="600"/></div>
+<div class="ctr"><img src="/NeuroNotes/img/p8.png" width="600"/></div>
 
 # TODO
 

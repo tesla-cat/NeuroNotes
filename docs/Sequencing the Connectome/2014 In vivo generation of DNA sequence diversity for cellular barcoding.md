@@ -13,7 +13,7 @@
 
 <div class="ctr"><iframe width="560" height="315" src="https://www.youtube.com/embed/zOStRhccn6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<div class="ctr"><img src="/img/p7.png" width="600"/></div>
+<div class="ctr"><img src="/NeuroNotes/img/p7.png" width="600"/></div>
 
 <details><summary>
 

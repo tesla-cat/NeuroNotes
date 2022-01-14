@@ -44,12 +44,12 @@
 
 <div class="ctr">
     <h3>MAPseq vs BARseq</h3>
-    <img src="/img/p10.png" width="500"/>
+    <img src="/NeuroNotes/img/p10.png" width="500"/>
 </div>
 
 <div class="ctr">
     <h3>MAPseq vs BRICseq</h3>
-    <img src="/img/p9.png" width="500"/>
+    <img src="/NeuroNotes/img/p9.png" width="500"/>
 </div>
 
 - `MAPseq` [High-Throughput Mapping of Single-Neuron Projections by **Sequencing** of **barcoded** RNA.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6640135/)

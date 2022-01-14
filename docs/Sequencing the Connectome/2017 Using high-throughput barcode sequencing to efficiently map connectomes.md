@@ -14,7 +14,7 @@
 
 ### INTRODUCTION
 
-<div class="ctr"><img src="/img/p5.png" width="100%"/></div>
+<div class="ctr"><img src="/NeuroNotes/img/p5.png" width="100%"/></div>
 
 - (A) First, we express random mRNA barcodes and modified synaptic proteins in a separate population of pre- and postsynaptic neurons, so that each neuron is **uniquely** labeled with a different barcode sequence (compare ref (17,18)).
     - 17: **NOT unique** `2016 MAPseq` [High-Throughput Mapping of Single-Neuron Projections by **Sequencing** of **barcoded** RNA.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6640135/)
@@ -22,7 +22,7 @@
 
 <div class="ctr">
     <h3>2016 MAPseq</h3>
-    <img src="/img/p6.png" width="300"/>
+    <img src="/NeuroNotes/img/p6.png" width="300"/>
 </div>
 
 - The modified synaptic proteins specifically bind the mRNA barcodes via an RNA binding domain, thereby trafficking barcodes to the pre- (left) or postsynaptic (right) compartments, respectively. The proteins meet at the synapse. 
