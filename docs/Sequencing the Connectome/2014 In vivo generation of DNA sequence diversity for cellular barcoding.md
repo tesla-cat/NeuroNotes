@@ -13,6 +13,8 @@
 
 <div class="ctr"><iframe width="560" height="315" src="https://www.youtube.com/embed/zOStRhccn6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+<div class="ctr"><img src="/img/p7.png" width="600"/></div>
+
 <details><summary>
 
 In silico simulations
@@ -149,4 +151,6 @@ Our initial design relied on Cre recombinase to shuffle and pare down a cassette
 This architecture has a theoretical diversity of 2n after completion, since any fragment, j, of the n fragments can end in either the forward or inverted orientation. Several variant lox sites have been discovered with a wide variety of characteristics. The Brainbow system, e.g. employed three lox sites that were shown to be mutually incompatible including loxP (the original lox site), loxN and lox2272. We reasoned that a Cre-based barcoding approach could be extended to achieve higher diversities by concatenating k cassettes of n fragments, where each cassette employs one of a subset of incompatible lox sites. Here, the theoretical diversity is (2n)^k because each cassette operates independently. Thus with n = 100, k = 4, theoretical diversities reach our goal of 1e9 unique sequences.
 
 Unfortunately, many of the reported lox variants have not been validated for complete incompatibility or pairwise efficiency. Moreover, because of the repetitive nature of lox sites it would be difficult to synthesize cassettes with the hundreds of fragments required to achieve our target diversity. For example, an architecture with n = 100, k = 4, where each fragment is above the minimum length (~100 bp) for efficient recombination, requires a large genomic insertion with a length >60 kb. Finally, simulations suggested that Cre-based architectures are subject to considerable biases that limit the diversities that can be achieved in practice.
+
+# TODO
 

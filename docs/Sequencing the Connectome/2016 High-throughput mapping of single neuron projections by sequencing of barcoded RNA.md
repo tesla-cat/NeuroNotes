@@ -11,3 +11,5 @@
 - Although MAPseq, like GFP tracing, does not distinguish fibers of passage, we minimize their contribution by avoiding large fiber bundles during the dissection of target areas. 
 - Using this procedure, the brain-wide map of projections from a given area can be determined in less than a week. By reformulating projection mapping as a problem of sequencing, MAPseq harnesses advances in high-throughput sequencing to permit efficient single neuron circuit tracing.
 
+# TODO
+

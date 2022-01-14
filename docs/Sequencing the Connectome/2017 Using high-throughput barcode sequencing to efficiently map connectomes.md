@@ -45,7 +45,7 @@
     - and reconstruction of the network connectivity 
 
 - We develop a set of reagents that allow for synaptic trafficking of barcodes, specific crosslinking of carrier proteins across synapses, and recovery and joining of the barcode pairs that define a specific synapse. 
-- Unfortunately, however, the efficiency of the last step—barcode joining—is in our hands insufficient to provide for reliable synapse recovery while avoiding false positives. 
+- **Unfortunately, however, the efficiency of the last step—barcode joining—is in our hands insufficient to provide for reliable synapse recovery while avoiding false positives.**
 - Despite this shortcoming, our work lays the foundation for using high-throughput DNA sequencing for circuit reconstruction. Future improvements upon SYNseq have the potential to enable high-throughput connectomics, opening up many new avenues of research in neuroscience.
 
 ### MATERIALS AND METHODS

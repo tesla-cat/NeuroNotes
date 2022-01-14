@@ -36,6 +36,11 @@
     - Nat Methods. 
     - 2018 Nov
 
+- [The logic of single-cell projections from visual cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/)
+    - Han Y, Kebschull JM, Campbell RAA, Cowan D, Imhof F, Zador AM, Mrsic-Flogel TD.
+    - Nature. 
+    - 2018 Apr 5 
+
 - `BaristaSeq` [Efficient in situ **barcode** **sequencing** using padlock probe-based **BaristaSeq**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5829746/)
     - Chen X, Sun YC, Church GM, Lee JH, Zador AM.
     - Nucleic Acids Res. 
@@ -76,7 +81,6 @@
     - PLoS Biol. 
     - 2012
 
----
 
 
 
@@ -89,7 +93,7 @@
 
 
 
-
+<details><summary>other papers from Prof. Tony Zador</summary>
 
 ## learning
 
@@ -249,11 +253,6 @@
     - Proc Natl Acad Sci U S A. 
     - 2020 Nov 24
 
-- The logic of single-cell projections from visual cortex.
-    - Han Y, Kebschull JM, Campbell RAA, Cowan D, Imhof F, Zador AM, Mrsic-Flogel TD.
-    - Nature. 
-    - 2018 Apr 5 
-
 - Differences in sensitivity to neural timing among cortical areas.
     - Yang Y, Zador AM.
     - J Neurosci. 
@@ -303,3 +302,5 @@
     - Zador AM, Agmon-Snir H, Segev I.
     - J Neurosci. 
     - 1995 Mar
+
+</details>
