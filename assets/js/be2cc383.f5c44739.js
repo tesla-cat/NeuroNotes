@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[265],{9348:function(e){e.exports=JSON.parse('{"allTagsPath":"/NeuroNotes/blog/tags","slug":"/NeuroNotes/blog/tags/facebook","name":"facebook","count":1,"permalink":"/NeuroNotes/blog/tags/facebook"}')}}]);
