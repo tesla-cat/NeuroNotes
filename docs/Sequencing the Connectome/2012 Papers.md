@@ -1,93 +1,137 @@
 
 ## **Sequencing** the connectome
 
-- `BARseq` [Cellular anatomy of the mouse primary motor cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8494646/)
-    - Muñoz-Castañeda R, Zingg B, Matho KS, Chen X, Wang Q, Foster NN, Li A, Narasimhan A, Hirokawa KE, Huo B, Bannerjee S, Korobkova L, Park CS, Park YG, Bienkowski MS, Chon U, Wheeler DW, Li X, Wang Y, Naeemi M, Xie P, Liu L, Kelly K, An X, Attili SM, Bowman I, Bludova A, Cetin A, Ding L, Drewes R, D'Orazi F, Elowsky C, Fischer S, Galbavy W, Gao L, Gillis J, Groblewski PA, Gou L, Hahn JD, Hatfield JT, Hintiryan H, Huang JJ, Kondo H, Kuang X, Lesnar P, Li X, Li Y, Lin M, Lo D, Mizrachi J, Mok S, Nicovich PR, Palaniswamy R, Palmer J, Qi X, Shen E, Sun YC, Tao HW, Wakemen W, Wang Y, Yao S, Yuan J, Zhan H, Zhu M, Ng L, Zhang LI, Lim BK, Hawrylycz M, Gong H, Gee JC, Kim Y, Chung K, Yang XW, Peng H, Luo Q, Mitra PP, Zador AM, Zeng H, Ascoli GA, Josh Huang Z, Osten P, Harris JA, Dong HW.
-    - Nature. 
-    - 2021 Oct
 
-- `BARseq2` [Integrating **barcoded** neuroanatomy with spatial transcriptional profiling enables identification of gene correlates of projections.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178227/)
-    - Sun YC, Chen X, Fischer S, Lu S, Zhan H, Gillis J, Zador AM.
-    - Nat Neurosci. 
-    - 2021 Jun
 
-- `BARseq` [**BARcode** DEmixing through Non-negative Spatial Regression (BarDensr).](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971881/)
-    - Chen S, Loper J, Chen X, Vaughan A, Zador AM, Paninski L.
-    - PLoS Comput Biol. 
-    - 2021 Mar 8
+<details>
+<summary>
 
-- `BRICseq` [**BRICseq** Bridges Brain-wide Interregional Connectivity to Neural Activity and Gene Expression in Single Animals.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7771207/)
-    - Huang L, Kebschull JM, Fürth D, Musall S, Kaufman MT, Churchland AK, Zador AM.
-    - Cell. 
-    - 2020 Jul 9
+### Single neuron projection: MAPseq -> BaristaSeq -> BARseq -> BRICseq -> BARseq2
 
-- `BARseq` [High-Throughput Mapping of Long-Range Neuronal Projection Using In Situ **Sequencing**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7836778/)
-    - Chen X, Sun YC, Zhan H, Kebschull JM, Fischer S, Matho K, Huang ZJ, Gillis J, Zador AM.
-    - Cell. 
-    - 2019 Oct 17
+- `MAPseq`: Multiplexed Analysis of Projections by Sequencing
+- `BaristaSeq`: Barcode in situtargeted sequencing
+- `BARseq`: Barcoded Anatomy Resolved by Sequencing
+- `BRICseq`: BRain-wide Individual-animal Connectome sequencing
+- `BARseq2`: Barcoded Anatomy Resolved by Sequencing 2
 
-- `SYNSeq` [Network cloning using DNA **barcodes**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6511037/)
-    - Shuvaev SA, Başerdem B, Zador AM, Koulakov AA.
-    - Proc Natl Acad Sci U S A. 
-    - 2019 May 7
+</summary>
 
-- `MAPseq BaristaSeq` [Cellular **barcoding**: lineage tracing, screening and beyond.](http://zadorlab.labsites.cshl.edu/wp-content/uploads/sites/59/2019/08/Kebschull-Zador-2018-Cellular-barcoding-lineage-tracing.pdf)
-    - Kebschull JM, Zador AM.
-    - Nat Methods. 
-    - 2018 Nov
+<div class="ctr">
+    <h3>MAPseq vs BARseq</h3>
+    <img src="/img/p10.png" width="500"/>
+</div>
 
-- `MAPseq` [The logic of single-cell projections from visual cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/)
-    - Han Y, Kebschull JM, Campbell RAA, Cowan D, Imhof F, Zador AM, Mrsic-Flogel TD.
-    - Nature. 
-    - 2018 Apr 5 
-
-- `BaristaSeq` [Efficient in situ **barcode** **sequencing** using padlock probe-based **BaristaSeq**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5829746/)
-    - Chen X, Sun YC, Church GM, Lee JH, Zador AM.
-    - Nucleic Acids Res. 
-    - 2018 Feb 28
-
-- `SYNseq` [Using high-throughput **barcode** **sequencing** to efficiently map connectomes.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5499584/)
-    - Peikon ID, Kebschull JM, Vagin VV, Ravens DI, Sun YC, Brouzes E, Corrêa IR Jr, Bressan D, Zador AM.
-    - Nucleic Acids Res. 
-    - 2017 Jul 7
+<div class="ctr">
+    <h3>MAPseq vs BRICseq</h3>
+    <img src="/img/p9.png" width="500"/>
+</div>
 
 - `MAPseq` [High-Throughput Mapping of Single-Neuron Projections by **Sequencing** of **barcoded** RNA.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6640135/)
     - Kebschull JM, Garcia da Silva P, Reid AP, Peikon ID, Albeanu DF, Zador AM.
     - Neuron. 
     - 2016 Sep 7
 
-- [A New Defective Helper RNA to Produce Recombinant Sindbis Virus that Infects Neurons but does not Propagate.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4877524/)
-    - Kebschull JM, Garcia da Silva P, Zador AM.
-    - Front Neuroanat. 
-    - 2016 May 24
+- `BaristaSeq` [Efficient in situ **barcode** **sequencing** using padlock probe-based **BaristaSeq**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5829746/)
+    - Chen X, Sun YC, Church GM, Lee JH, Zador AM.
+    - Nucleic Acids Res. 
+    - 2018 Feb 28
 
-- [Sources of PCR-induced distortions in high-throughput **sequencing** data sets.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4666380/)
+- `MAPseq` [The logic of single-cell projections from visual cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/)
+    - Han Y, Kebschull JM, Campbell RAA, Cowan D, Imhof F, Zador AM, Mrsic-Flogel TD.
+    - Nature. 
+    - 2018 Apr 5 
+
+- `MAPseq BaristaSeq` [Cellular **barcoding**: lineage tracing, screening and beyond.](http://zadorlab.labsites.cshl.edu/wp-content/uploads/sites/59/2019/08/Kebschull-Zador-2018-Cellular-barcoding-lineage-tracing.pdf)
     - Kebschull JM, Zador AM.
-    - Nucleic Acids Res. 
-    - 2015 Dec 2
+    - Nat Methods. 
+    - 2018 Nov
 
-- [Long-term Cre-mediated retrograde **tagging** of neurons using a novel recombinant pseudorabies virus.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4153299/)
-    - Oyibo HK, Znamenskiy P, Oviedo HV, Enquist LW, Zador AM.
-    - Front Neuroanat. 
-    - 2014 Sep 3
+- `BARseq` [High-Throughput Mapping of Long-Range Neuronal Projection Using In Situ **Sequencing**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7836778/)
+    - Chen X, Sun YC, Zhan H, Kebschull JM, Fischer S, Matho K, Huang ZJ, Gillis J, Zador AM.
+    - Cell. 
+    - 2019 Oct 17
 
-- [In vivo generation of DNA sequence diversity for cellular **barcoding**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4176322/)
-    - Peikon ID, Gizatullina DI, Zador AM.
-    - Nucleic Acids Res. 
-    - 2014
+- `BRICseq` [**BRICseq** Bridges Brain-wide Interregional Connectivity to Neural Activity and Gene Expression in Single Animals.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7771207/)
+    - Huang L, Kebschull JM, Fürth D, Musall S, Kaufman MT, Churchland AK, Zador AM.
+    - Cell. 
+    - 2020 Jul 9
+
+- `BARseq` [**BARcode** DEmixing through Non-negative Spatial Regression (BarDensr).](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7971881/)
+    - Chen S, Loper J, Chen X, Vaughan A, Zador AM, Paninski L.
+    - PLoS Comput Biol. 
+    - 2021 Mar 8
+
+- `BARseq2` [Integrating **barcoded** neuroanatomy with spatial transcriptional profiling enables identification of gene correlates of projections.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178227/)
+    - Sun YC, Chen X, Fischer S, Lu S, Zhan H, Gillis J, Zador AM.
+    - Nat Neurosci. 
+    - 2021 Jun
+
+- `BARseq` [Cellular anatomy of the mouse primary motor cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8494646/)
+    - Muñoz-Castañeda R, Zingg B, Matho KS, Chen X, Wang Q, Foster NN, Li A, Narasimhan A, Hirokawa KE, Huo B, Bannerjee S, Korobkova L, Park CS, Park YG, Bienkowski MS, Chon U, Wheeler DW, Li X, Wang Y, Naeemi M, Xie P, Liu L, Kelly K, An X, Attili SM, Bowman I, Bludova A, Cetin A, Ding L, Drewes R, D'Orazi F, Elowsky C, Fischer S, Galbavy W, Gao L, Gillis J, Groblewski PA, Gou L, Hahn JD, Hatfield JT, Hintiryan H, Huang JJ, Kondo H, Kuang X, Lesnar P, Li X, Li Y, Lin M, Lo D, Mizrachi J, Mok S, Nicovich PR, Palaniswamy R, Palmer J, Qi X, Shen E, Sun YC, Tao HW, Wakemen W, Wang Y, Yao S, Yuan J, Zhan H, Zhu M, Ng L, Zhang LI, Lim BK, Hawrylycz M, Gong H, Gee JC, Kim Y, Chung K, Yang XW, Peng H, Luo Q, Mitra PP, Zador AM, Zeng H, Ascoli GA, Josh Huang Z, Osten P, Harris JA, Dong HW.
+    - Nature. 
+    - 2021 Oct
+
+</details>
+
+
+
+
+<details>
+<summary>
+
+### Neuron-neuron synapse: BOINC -> SYNSeq 
+
+- `SYNSeq`: unknown
+
+</summary>
 
 - `BOINC` [**Sequencing** the connectome.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479097/)
     - Zador AM, Dubnau J, Oyibo HK, Zhan H, Cao G, Peikon ID.
     - PLoS Biol. 
     - 2012
 
+- `SYNseq` [Using high-throughput **barcode** **sequencing** to efficiently map connectomes.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5499584/)
+    - Peikon ID, Kebschull JM, Vagin VV, Ravens DI, Sun YC, Brouzes E, Corrêa IR Jr, Bressan D, Zador AM.
+    - Nucleic Acids Res. 
+    - 2017 Jul 7
+
+- `SYNSeq` [Network cloning using DNA **barcodes**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6511037/)
+    - Shuvaev SA, Başerdem B, Zador AM, Koulakov AA.
+    - Proc Natl Acad Sci U S A. 
+    - 2019 May 7
+
+</details>
 
 
 
+<details>
+<summary>
 
+### Toolbox
 
+</summary>
 
+- [In vivo generation of DNA sequence diversity for cellular **barcoding**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4176322/)
+    - Peikon ID, Gizatullina DI, Zador AM.
+    - Nucleic Acids Res. 
+    - 2014
 
+- [Long-term Cre-mediated retrograde **tagging** of neurons using a novel recombinant pseudorabies virus.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4153299/)
+    - Oyibo HK, Znamenskiy P, Oviedo HV, Enquist LW, Zador AM.
+    - Front Neuroanat. 
+    - 2014 Sep 3
+
+- [Sources of PCR-induced distortions in high-throughput **sequencing** data sets.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4666380/)
+    - Kebschull JM, Zador AM.
+    - Nucleic Acids Res. 
+    - 2015 Dec 2
+
+- [A New Defective Helper RNA to Produce Recombinant Sindbis Virus that Infects Neurons but does not Propagate.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4877524/)
+    - Kebschull JM, Garcia da Silva P, Zador AM.
+    - Front Neuroanat. 
+    - 2016 May 24
+
+</details>
 
 
 
