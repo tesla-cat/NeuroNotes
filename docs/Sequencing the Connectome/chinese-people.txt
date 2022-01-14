@@ -9,8 +9,19 @@
     - Zhan H = Huiqing Zhan
         - https://www.linkedin.com/in/huiqing-zhan-81725829/
     - Chen S = Shuonan Chen
+        - https://www.linkedin.com/in/shuonanchen/
     - Huang L = Longwen Huang
+        - http://www.ibp.cas.cn/sourcedb_ibp_cas/cn/ibpexport/xsszmH_K/202106/t20210621_6114712.html
     - Cao G = Gang Cao
         - https://www.linkedin.com/in/gang-cao-1aa62735/
     - Han Y = Yunyun Han
         - http://zhanqun175.hust.edu.cn/hanyunyun/zh_CN/index.htm
+- not in papers:
+    - Li Yuan
+        - https://www.cshl.edu/wp-content/uploads/2018/10/Li-Yuan_CV.pdf
+    - Yi- Chen Wu
+    - Qiaojie Xiong
+        - https://www.stonybrook.edu/commcms/neurobiology/people/faculty_Qiaojie_Xiong.php
+    - Yang Yang
+        - https://slst.shanghaitech.edu.cn/yy/main.htm
+

@@ -36,7 +36,7 @@
     - Nat Methods. 
     - 2018 Nov
 
-- [The logic of single-cell projections from visual cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/)
+- `MAPseq` [The logic of single-cell projections from visual cortex.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6585423/)
     - Han Y, Kebschull JM, Campbell RAA, Cowan D, Imhof F, Zador AM, Mrsic-Flogel TD.
     - Nature. 
     - 2018 Apr 5 
