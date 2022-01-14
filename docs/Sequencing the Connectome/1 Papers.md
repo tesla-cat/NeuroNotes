@@ -4,9 +4,10 @@
 <details>
 <summary>
 
-### Neuron-neuron synapse: BOINC -> SYNSeq 
+### Neuron-neuron synapse 
 
-- `SYNSeq`
+- `2012 BOINC`: barcoding of individual neuronal connections
+- `2017 SYNSeq`
 
 </summary>
 
@@ -31,13 +32,13 @@
 <details>
 <summary>
 
-### Single neuron projection: MAPseq -> BaristaSeq -> BARseq -> BRICseq -> BARseq2
+### Single neuron projection
 
-- `MAPseq`: Multiplexed Analysis of Projections by Sequencing
-- `BaristaSeq`: Barcode in situtargeted sequencing
-- `BARseq`: Barcoded Anatomy Resolved by Sequencing
-- `BRICseq`: BRain-wide Individual-animal Connectome sequencing
-- `BARseq2`: Barcoded Anatomy Resolved by Sequencing 2
+- `2016 MAPseq`: Multiplexed Analysis of Projections by Sequencing
+- `2018 BaristaSeq`: Barcode in situtargeted sequencing
+- `2019 BARseq`: Barcoded Anatomy Resolved by Sequencing
+- `2020 BRICseq`: BRain-wide Individual-animal Connectome sequencing
+- `2021 BARseq2`: Barcoded Anatomy Resolved by Sequencing 2
 
 </summary>
 
