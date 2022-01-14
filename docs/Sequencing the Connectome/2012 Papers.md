@@ -1,6 +1,31 @@
 
 ## **Sequencing** the connectome
 
+<details>
+<summary>
+
+### Neuron-neuron synapse: BOINC -> SYNSeq 
+
+- `SYNSeq`
+
+</summary>
+
+- `BOINC` [**Sequencing** the connectome.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479097/)
+    - Zador AM, Dubnau J, Oyibo HK, Zhan H, Cao G, Peikon ID.
+    - PLoS Biol. 
+    - 2012
+
+- `SYNseq` [Using high-throughput **barcode** **sequencing** to efficiently map connectomes.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5499584/)
+    - Peikon ID, Kebschull JM, Vagin VV, Ravens DI, Sun YC, Brouzes E, Corrêa IR Jr, Bressan D, Zador AM.
+    - Nucleic Acids Res. 
+    - 2017 Jul 7
+
+- `SYNSeq` [Network cloning using DNA **barcodes**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6511037/)
+    - Shuvaev SA, Başerdem B, Zador AM, Koulakov AA.
+    - Proc Natl Acad Sci U S A. 
+    - 2019 May 7
+
+</details>
 
 
 <details>
@@ -74,36 +99,6 @@
 </details>
 
 
-
-
-<details>
-<summary>
-
-### Neuron-neuron synapse: BOINC -> SYNSeq 
-
-- `SYNSeq`: unknown
-
-</summary>
-
-- `BOINC` [**Sequencing** the connectome.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479097/)
-    - Zador AM, Dubnau J, Oyibo HK, Zhan H, Cao G, Peikon ID.
-    - PLoS Biol. 
-    - 2012
-
-- `SYNseq` [Using high-throughput **barcode** **sequencing** to efficiently map connectomes.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5499584/)
-    - Peikon ID, Kebschull JM, Vagin VV, Ravens DI, Sun YC, Brouzes E, Corrêa IR Jr, Bressan D, Zador AM.
-    - Nucleic Acids Res. 
-    - 2017 Jul 7
-
-- `SYNSeq` [Network cloning using DNA **barcodes**.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6511037/)
-    - Shuvaev SA, Başerdem B, Zador AM, Koulakov AA.
-    - Proc Natl Acad Sci U S A. 
-    - 2019 May 7
-
-</details>
-
-
-
 <details>
 <summary>
 
@@ -132,7 +127,6 @@
     - 2016 May 24
 
 </details>
-
 
 
 
