@@ -51,6 +51,11 @@
     - Neuron. 
     - 2016 Sep 7
 
+- [A New Defective Helper RNA to Produce Recombinant Sindbis Virus that Infects Neurons but does not Propagate.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4877524/)
+    - Kebschull JM, Garcia da Silva P, Zador AM.
+    - Front Neuroanat. 
+    - 2016 May 24
+
 - [Sources of PCR-induced distortions in high-throughput **sequencing** data sets.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4666380/)
     - Kebschull JM, Zador AM.
     - Nucleic Acids Res. 
@@ -248,11 +253,6 @@
     - Han Y, Kebschull JM, Campbell RAA, Cowan D, Imhof F, Zador AM, Mrsic-Flogel TD.
     - Nature. 
     - 2018 Apr 5 
-
-- A New Defective Helper RNA to Produce Recombinant Sindbis Virus that Infects Neurons but does not Propagate.
-    - Kebschull JM, Garcia da Silva P, Zador AM.
-    - Front Neuroanat. 
-    - 2016 May 24
 
 - Differences in sensitivity to neural timing among cortical areas.
     - Yang Y, Zador AM.
