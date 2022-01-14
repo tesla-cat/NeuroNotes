@@ -6,15 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Neuroscience Notes',
+  title: 'NeuroNotes',
   tagline: 'Brains are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  
+  url: 'https://endiliey.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'endiliey.github.io',
+  organizationName: 'endiliey',
 
   presets: [
     [
@@ -43,9 +46,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Neuroscience Notes',
+        title: 'NeuroNotes',
         logo: {
-          alt: 'My Neuroscience Notes Logo',
+          alt: 'NeuroNotes Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -106,7 +109,7 @@ const config = {
             ],
           },*/
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Neuroscience Notes, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NeuroNotes, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
