@@ -160,4 +160,36 @@ Step 2: SYNseq proteins `traffic` to synapses in **neuronal cell culture** and c
 
 #### Joining pre- and postsynaptic barcode mRNAs by emulsion RT-PCR
 
+- With the desired functional properties of `synPRE-P` and `synPOST-P` confirmed, we set out to develop a method for joining RNA barcodes specifically and efficiently. We tested a variety of methods including
+    - splinted 夹板 ligation of `RNaseH` trimmed barcode mRNAs by `T4` RNA ligase
+    - double-headed ribozymes 核酶 drawing on the `L21` and the `Carinii` ribozyme 
+    - barcode joining by reverse transcription where the two barcode RNAs are priming each other 
+- before settling on barcode joining by **emulsion 乳胶 reverse transcription-PCR (RT-PCR) followed by overlap PCR**, which had previously proven successful for joining immunoglobulin 免疫球蛋白 mRNAs. 
+- Briefly, 
+    - we isolate `synPRE-P—synPOST-P` complexes by `IP` and emulsify the complexes using a microfluidic droplet system at a dilution **such that each droplet contains no more than one complex**. 
+    - Inside each droplet, we then reverse transcribe the presynaptic and postsynaptic barcode mRNAs and subsequently join them into a single DNA strand by overlap PCR. 
+    - We then break the emulsion, isolate the barcode pairs and sequence them on an Illumina sequencing machine.
+
+<div class="ctr">
+    <img src="/NeuroNotes/img/p19.png" width="100%"/>
+</div>
+
+The success and failure of any method to join barcode mRNAs in SYNseq is measured not simply in the generation of barcode pairs, but critically in the ability of producing barcode pairs from mRNAs in the same complex, but not from mRNAs in different complexes or even unbound mRNAs. When using emulsion RT-PCR to join barcode mRNAs, **such nonspecific joining occurs when more than one synPRE-P—synPOST-P complex, and thus more than one presynaptic or postsynaptic barcode mRNA are loaded into the same droplet**. The fraction of unspecific joining events therefore ultimately depends on the concentration of complexes that are loaded into droplets and decreases with input concentration, as demonstrated by loading droplets with different concentrations of a test RNA that contains the sequences of both pre- and postsynaptic barcodes, but in inverted orientations relative to the final sequencing amplicon.
+
+To validate the emulsion RT-PCR approach, we first tested joining using protein-RNA complexes derived from HEK cell culture. To measure the rate of nonspecific joining of barcode mRNAs, we set up two experiments in parallel. Each experiment consists of one population of HEK cells that co-express synPRE-P, synPOST-P and barcode mRNAs. In these experiments we used an earlier version of the SYNseq proteins. **The barcode mRNAs in each experiment are tagged with an additional, experiment-specific sequence, a zip code (denoted here as A or B).** We crosslinked and lysed 溶解 each set of cells independently, and pooled the lysates 裂解物. We then immunoprecipitated `synPRE-P—synPOST-P` complexes from the mixed lysate by streptavidin 链霉亲和素 IP, released the complexes from the beads by cleaving 劈开 the disulfide bridge 二硫键 on the crosslinker under mild reducing conditions and finally joined barcode mRNAs using emulsion RT-PCR. Sequencing the resulting barcode pairs revealed **42** presynaptic and **42** postsynaptic barcodes, which were joined into 45 unique barcode pairs.
+
+Based on the experimental setup, barcode pairs should show matching zip codes (i.e. A-A pairs or B-B pairs), as those are the only biologically possible combinations. **Any mixed barcode pairs (A–B or B–A) must arise from 'crossover' events and therefore represent the rate of false-positives in recovery of the correct set of synaptic connections by SYNseq.** In our HEK cell experiment, we find a significant crossover rate of **13.3%** (barcodes from one experiment joined to barcodes of another experiment). Extrapolated to include undetectable A–A and B–B crossover events, this indicates an overall **false-positive rate of 26.6%**. This false-positive rate, importantly, only measures false-positives arising from biochemical procedures post-lysis (i.e. protein–RNA dissociation, insufficient dilution for emulsions, etc.). It cannot quantify the false-positive barcode pairs that result from aberrant localization of the proteins or any other in vivo effects. The false-positive rate of this experiment appears to be dominated by the emulsion input concentration, **suggesting that we could reduce the false positive rate by further dilution of the complexes before emulsion.**
+
+We next tested emulsion RT-PCR for barcode joining in samples from neuronal cultures. We infected XONA devices with barcoded `synPRE-P` and `synPOST-P` Sindbis in the left and right chamber, respectively. Again, we set up two replicate experiments in parallel using experiment specific zip codes to differentiate the barcode mRNAs. **We crosslinked, lysed and mixed the lysates from the two sets of XONA devices** and performed a double immunoprecipitation to isolate synaptic `synPRE-P—synPOST-P` complexes. We then performed emulsion RT-PCR on **a very dilute sample of the IP products to minimize the rate of crossover events**. Sequencing the resulting barcode pairs, **we identified only 2 unique combinations of pre- and postsynaptic barcodes, albeit 尽管 no false positive cross-experiment barcode pairs !!!!!!!!!!!!!!!!!!!!!?????????????????????**. 
+
+While it is likely possible to increase this number of joined barcode pairs by increasing the number of droplets made, or by slightly increasing the concentration of emulsion input, we found ourselves in a regime far from the optimal necessary to achieve high throughput connectivity mapping by SYNseq. Taken together, our emulsion results suggest, that **while SYNseq can be used to read out synaptic connectivity, barcode joining is currently a very low efficiency process, which will need to be optimized further before SYNseq can be used for circuit mapping.**
+
 ### DISCUSSION
+
+#### DNA sequencing for neuroanatomy
+
+#### Challenges ahead
+
+#### Space and neuroanatomy
+
+#### Future directions
