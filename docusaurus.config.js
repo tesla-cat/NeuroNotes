@@ -58,7 +58,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Sequencing the Connectome/Papers',
             position: 'left',
             label: 'Notes',
           },

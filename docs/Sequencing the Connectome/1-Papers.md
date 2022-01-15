@@ -1,10 +1,14 @@
 
 ## **Sequencing** the connectome
 
+<div class="ctr">
+    <img src="/NeuroNotes/img/p11.png" width="500"/>
+</div>
+
 <details>
 <summary>
 
-### Neuron-neuron synapse 
+### Neuron-neuron synapse (connectome)
 
 - `2012 BOINC`: barcoding of individual neuronal connections
 - `2017 SYNSeq`
@@ -32,25 +36,50 @@
 <details>
 <summary>
 
-### Single neuron projection
+### Single neuron projection (projectome)
 
 - `2016 MAPseq`: Multiplexed Analysis of Projections by Sequencing
-- `2018 BaristaSeq`: Barcode in situtargeted sequencing
-- `2019 BARseq`: Barcoded Anatomy Resolved by Sequencing
-- `2020 BRICseq`: BRain-wide Individual-animal Connectome sequencing
-- `2021 BARseq2`: Barcoded Anatomy Resolved by Sequencing 2
-
-</summary>
+    - In MAPseq, neurons are barcoded using a **Sindbis virus** library. Both the source area containing neuronal somata and target projection areas are micro-dissected into "cubelets" and sequenced. Barcodes from the target areas are then matched to those at the source area to reveal projection patterns. The **spatial resolution** of MAPseq is thus determined by the size of the cubelets.
+- `2018 BaristaSeq`: Barcode **in situ** targeted sequencing
+    - an improved version of the gap padlock probe-based method with a five-fold increase in efficiency
+        - To capture short diverse barcode sequences, we needed an approach in which the actual target barcode sequence is captured and amplified. Although some in situ hybridization methods use sequencing to read out gene-specific tags to allow multiplexed detection of RNAs, they **cannot directly sequence the RNAs of interest** and are unsuitable for barcode sequencing. Circligase-based FISSEQ can readout mRNA sequences, but is not sufficiently sensitive for barcode sequencing. We therefore used a targeted approach, BaristaSeq, in which reverse transcription was used to **convert the barcode sequence into cDNA**, after which padlock probe hybridization followed by gap-filling and ligation was used to form a circular template for rolling circle amplification. The gap-filling padlock approach allowed for **efficient amplification of barcodes** in neurons co-expressing barcodes and GFP. We also adapted Illumina Sequencing By Synthesis (SBS) chemistry for in situ reactions. In combination, these strategies formed the basis for a protocol that allowed efficient and robust sequencing of barcoded **cultured neurons**.
+    - `MAPseq` and others: the locations of the neurons under investigation had to be determined by manually picking individual neurons—a method which scales poorly. 
+    - Efficient barcode sequencing **in situ** would allow us to preserve the location of each neuron's soma while still maintaining high-throughput lineage tracing and projection mapping. 
+    - Furthermore, in the case of `MAPseq` where the barcodes fill the neurons, in situ barcode sequencing would potentially allow visualization of the morphology of individual neurons. 
+    - Preserving the locations of the cells being sequenced would allow correlation of lineages and projections with other information, such as gene expression assayed through FISH and neuronal activities assayed through functional imaging, at cellular resolution.
+- `2019 BARseq = MAPseq + BaristaSeq`: Barcoded Anatomy Resolved by Sequencing
+    - a method that combines `MAPseq` with **in situ** sequencing of cellular barcodes (`BaristaSeq`).
+    - `MAPseq` protocol relies on tissue homogenization, so the precise location of each soma is lost.
+    - In BARseq, we perform in situ sequencing of barcoded somata at the **source**; the target projection areas are still micro-dissected and sequenced as cubelets. BARseq thus inherits the throughput and cubelet resolution of projections of `MAPseq`, but allows the precise somatic **origin** of each axonal projection to be determined with **cellular resolution**.
 
 <div class="ctr">
-    <h3>MAPseq vs BARseq</h3>
+    <h3>BARseq = MAPseq + BaristaSeq</h3>
     <img src="/NeuroNotes/img/p10.png" width="500"/>
 </div>
 
+- `2020 BRICseq = MAPseq + multi source`: BRain-wide Individual-animal Connectome sequencing
+    - `MAPseq` was originally developed to study projections from a **single source**. Conceptually, a straightforward generalization of MAPseq to determine the projections from **many source areas in the same experiment** would be to tag neurons with an additional area-specific barcode sequence—a "zipcode"—which could be used to identify the source (somatic origin) of each projection. 
+    - We pursued a more convenient strategy, which requires only a single batch of virus. We hypothesized that we could reliably determine the source of each projection using only sequencing, by exploiting the higher abundance of RNA barcodes in the soma-proximal compartments (including soma and proximal dendrites) compared with the axon terminals. According to this 'soma-max' strategy, the cubelet with the highest abundance of a given barcode of interest is assumed to be the source of the projection. Compared to the ground truth determined by the zipcode, the soma-max strategy correctly identified the soma location for 99.2±0.2% of all cells. These results indicate that the soma-max strategy would allow accurate reconstruction of connectivity even when only a **single viral library** is injected.
+
 <div class="ctr">
-    <h3>MAPseq vs BRICseq</h3>
-    <img src="/NeuroNotes/img/p9.png" width="500"/>
+    <h3>BRICseq = MAPseq + multi source</h3>
+    <img src="/NeuroNotes/img/p9.png" width="100%"/>
 </div>
+
+- `2021 BARseq2 = BARseq + Spatial transcriptomics`: Barcoded Anatomy Resolved by Sequencing 2
+    - In `BARseq`, each neuron is labeled with a unique virally-encoded RNA barcode that is replicated in the somas and transported to the axon terminals. 
+    - The barcodes at the axon terminals located at various target areas are sequenced and matched to somatic barcodes, which are sequenced in situ, in order to determine the projection patterns of each labeled neuron. 
+    - Because `BARseq` preserves the location of somata with high spatial resolution, in principle it provides a platform to combine projection mapping with other neuronal properties also interrogated in situ, including gene expression. We have previously shown that `BARseq` can be combined with fluorescent in situ hybridization (FISH) and Cre-labeling to uncover **projections across neuronal subtypes defined by gene expression**. However, these approaches **can only interrogate one or a few genes at a time**, which would be insufficient for unraveling the complex relationship between the expression of many genes to diverse cortical projections.
+    - Here we aim to develop a technique to simultaneously map projections to multiple brain areas and **detect the expression of dozens of genes** in hundreds to thousands of neurons from a cortical area with high throughput, high spatial resolution, and cellular resolution. 
+    - To achieve this goal, we combine the high throughput and multiplexed projection mapping capability of `BARseq` with state-of-the-art **spatial transcriptomic techniques with high imaging throughput and multiplexing capacity**. This second-generation `BARseq` (BARseq2) greatly improves the ability to correlate the expression of many genes to projections to many targets in the same neurons. 
+    - As a proof-of-principle, we first demonstrate multiplexed gene detection using BARseq2 by mapping the spatial pattern of up to 65 cadherins and cell-type markers in 29,933 cells. We then correlate the expression of 20 cadherins to projections to up to 35 target areas in 1,349 neurons in mouse motor and auditory cortex. Our study reveals novel sets of cadherins that correlate with homologous projections in both cortical areas. BARseq2 thus bridges transcriptomic signatures obtained through spatial transcriptional profiling with sequencing-based projection mapping to illuminate the molecular logic of long-range projections.
+
+<div class="ctr">
+    <h3>BARseq2 = BARseq + Spatial transcriptomics</h3>
+    <img src="/NeuroNotes/img/p12.png" width="100%"/>
+</div>
+
+</summary>
 
 - `MAPseq` [High-Throughput Mapping of Single-Neuron Projections by **Sequencing** of **barcoded** RNA.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6640135/)
     - Kebschull JM, Garcia da Silva P, Reid AP, Peikon ID, Albeanu DF, Zador AM.
